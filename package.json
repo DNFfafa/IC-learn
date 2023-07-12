@@ -1,18 +1,11 @@
 {
-  "name": "blog",
-  "version": "1.0.0",
-  "description": "开发技术，分布式，微服务，高并发，高可用，高可扩展，高可维护，JVM技术，MySQL，分布式数据库，分布式事务，云原生，大数据，云计算，渗透技术，各种面试题，面试技巧",
-  "main": "index.js",
-  "keywords": [
-    "开发技术，分布式，微服务，高并发，高可用，高可扩展，高可维护，JVM技术，MySQL，分布式数据库，分布式事务，云原生，大数据，云计算，渗透技术，各种面试题，面试技巧"
-  ],
-  "author": "程序员子龙",
-  "license": "ISC",
   "scripts": {
-    "docs:dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",
-    "docs:build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "^1.9.8"
+    "vuepress": "^1.9.9",
+    "vuepress-plugin-mathjax": "^1.2.8",
+    "vuepress-theme-reco": "^1.6.17"
   }
 }
